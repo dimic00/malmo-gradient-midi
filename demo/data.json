@@ -1,0 +1,74 @@
+{
+	"default-state": {
+		"gradients": [
+			["#ffffff", "#ffffff"],
+			["#ffffff", "#000000"],
+			["#000000", "#000000"],
+			["#000000", "#ffffff"]
+		],
+		"transitionSpeed": 7000
+	},
+	"kite-rmx": {
+		"gradients": [
+			["#007991", "#78ffd6"],
+			["#78ffd6", "#78ffd6"],
+			["#78ffd6", "#007991"],
+			["#007991", "#007991"]
+		],
+		"transitionSpeed": 7000
+	},
+	"fur": {
+		"gradients": [
+			["#30E8BF", "#FF8235"],
+			["#FF8235", "#FF8235"],
+			["#FF8235", "#30E8BF"],
+			["#30E8BF", "#30E8BF"]
+		],
+		"transitionSpeed": 7000
+	},
+	"kara": {
+		"gradients": [
+			["#2c3e50", "#fd746c"],
+			["#fd746c", "#fd746c"],
+			["#fd746c", "#2c3e50"],
+			["#2c3e50", "#2c3e50"]
+		],
+		"transitionSpeed": 7000
+	},
+	"tundra": {
+		"gradients": [
+			["#e96443", "#904e95"],
+			["#904e95", "#904e95"],
+			["#904e95", "#e96443"],
+			["#e96443", "#e96443"]
+		],
+		"transitionSpeed": 7000
+	},
+	"inupiat": {
+		"gradients": [
+			["#2196f3", "#f44336"],
+			["#f44336", "#f44336"],
+			["#f44336", "#2196f3"],
+			["#2196f3", "#2196f3"]
+		],
+		"transitionSpeed": 7000
+	},
+	"sink": {
+		"gradients": [
+			["#EECDA3", "#EF629F"],
+			["#EF629F", "#EF629F"],
+			["#EF629F", "#EECDA3"],
+			["#EECDA3", "#EECDA3"]
+		],
+		"transitionSpeed": 7000
+	},
+	"bbm-rmx": {
+		"gradients": [
+			["#FEAC5E", "#C779D0"],
+			["#C779D0", "#C779D0"],
+			["#C779D0", "#FEAC5E"],
+			["#FEAC5E", "#FEAC5E"]
+		],
+		"transitionSpeed": 7000
+	}
+}
