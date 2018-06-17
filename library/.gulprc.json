@@ -1,0 +1,11 @@
+{
+	"env": "dev",
+	"paths": {
+		"cssSrc": "src/css/style.css",
+		"cssAll": "src/css/*.css",
+		"cssSubFold": "src/css/*/*.css",
+		"cssDest": "built/",
+		"jsSrc": "src/javascripts/app.js",
+		"jsDest": "built/js/"
+	}
+}

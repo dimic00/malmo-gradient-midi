@@ -1,0 +1,63 @@
+{
+	"name": "Malmö Gradient Midi",
+	"version": "1.0.0",
+	"description": "Gradient visuals controlled by midi",
+	"main": "index.js",
+	"devDependencies": {
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"babelify": "^8.0.0",
+		"browserify": "^16.2.2",
+		"cssnano": "^3.10.0",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-plugin-import": "^2.12.0",
+		"gulp": "^3.9.1",
+		"gulp-eslint": "^4.0.2",
+		"gulp-if": "^2.0.2",
+		"gulp-newer": "^1.4.0",
+		"gulp-plumber": "^1.2.0",
+		"gulp-postcss": "^7.0.1",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.0",
+		"postcss": "^6.0.22",
+		"postcss-assets": "^5.0.0",
+		"postcss-flexibility": "^2.0.0",
+		"postcss-import": "^11.1.0",
+		"postcss-preset-env": "^5.1.0",
+		"postcss-url": "^7.3.2",
+		"vinyl-buffer": "^1.0.1",
+		"vinyl-source-stream": "2.0.0"
+	},
+	"scripts": {
+		"test": "gulp default"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:dimic00/malmo-gradient-midi.git"
+	},
+	"keywords": [
+		"Basic",
+		"Gulp",
+		"NodeJS",
+		"NPM",
+		"PostCSS"
+	],
+	"author": "Dimitri Robert",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://bitbucket.org/dev-cua/starter-wordpress/issues/"
+	},
+	"homepage": "https://bitbucket.org/dev-cua/starter-wordpress/",
+	"dependencies": {
+		"babel-core": "^6.26.3",
+		"eslint-plugin-react": "^7.8.2",
+		"flexibility": "^2.0.1",
+		"granim": "^1.1.1",
+		"jquery": "^3.3.1",
+		"normalize.css": "^8.0.0",
+		"npm": "^6.1.0",
+		"screenfull": "^3.3.2",
+		"webmidi": "^2.0.5"
+	}
+}
