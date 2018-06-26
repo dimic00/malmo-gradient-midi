@@ -61,7 +61,7 @@ $(document).ready(() => {
 					console.log('WebMidi could not be enabled.', err);
 				} else {
 					let input = WebMidi.getInputByName(
-						'Gestionnaire IAC Bus IAC 2'
+						$('.data').data('input')
 					);
 					console.log(input);
 					// receive midi
