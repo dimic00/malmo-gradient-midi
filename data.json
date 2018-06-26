@@ -60,7 +60,7 @@
 			["#EF629F", "#EECDA3"],
 			["#EECDA3", "#EECDA3"]
 		],
-		"transitionSpeed": 7000
+		"transitionSpeed": 10
 	},
 	"bbm-rmx": {
 		"gradients": [

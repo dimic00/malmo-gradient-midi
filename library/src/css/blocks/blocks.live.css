@@ -1,14 +1,22 @@
 body {
-	background: #000;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
 	position: relative;
 	padding: 10px;
 	box-sizing: border-box;
+
+	&.white {
+		background: #fff;
+	}
+
+	&.black {
+		background: #000;
+		height: 100vh;
+		overflow: hidden;
+	}
 }
 
 .live {
@@ -35,4 +43,46 @@ body {
 		width: 100%;
 		height: 100%;
 	}
+}
+
+.wrap {
+	width: 100%;
+	max-width: 500px;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
+}
+
+.midi {
+	font-size: 14px;
+	background: #e4e4e4;
+	padding: 14px 20px;
+	box-sizing: border-box;
+	margin-bottom: 80px;
+	color: #333;
+}
+
+.track {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	& + .track {
+		margin-top: 40px;
+	}
+}
+
+.track__title {
+	font-size: 18px;
+	width: 100%;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.track__gradient {
+	width: 49%;
+	height: 120px;
+	background: #e4e4e4;
 }
